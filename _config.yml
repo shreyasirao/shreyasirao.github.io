@@ -1,6 +1,6 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
+title:            "SHREYASI RAO"
+description:      "Ruby is a gem."
 url:              https://shreyasirao.github.io # Site url, without a slash at the end.
 signoff:          "Shreyasi Rao" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
@@ -12,6 +12,9 @@ links:
     url:          /
     external:     false
   - name:         About me
+    url:          /about
+    external:     false
+ - name:         Resume
     url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------

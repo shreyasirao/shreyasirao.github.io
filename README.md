@@ -1,6 +1,6 @@
-# Scribble
+# Servers
 
-A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
+How do they work? [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
 
 ![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
 
