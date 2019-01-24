@@ -22,14 +22,14 @@ img {
     <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
       <nav class="bb b--light-gray pv4 tc" aria-label="Main">
         {% for link in site.links %}
-          <a class="link blue hover-mid-gray mh2 pv1"
+          <a class="link black hover-mid-gray mh2 pv1"
              href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
              {{ link.name }}
            </a>
         {% endfor %}
       </nav>
 
-      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
+      <main class="tl f5 relative pa4 pa5-ns overflow-hidden">
         {% if page.title %}
           <div class="mb4">
             {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
