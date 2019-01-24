@@ -10,7 +10,7 @@ share:            false # Turn on twitter and facebook share buttons
 links:
   
   - name:         Posts
-    url:          /posts:title
+    url:          /
     external:     false
   - name:         About
     url:          /about
@@ -24,7 +24,7 @@ links:
   
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /about
+permalink:        /posts:title
 defaults:
   - values:
       layout: "default"
