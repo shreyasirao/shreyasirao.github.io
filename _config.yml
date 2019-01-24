@@ -8,21 +8,23 @@ google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
 
 links:
+  
+  - name:         Posts
+    url:          /posts:title
+    external:     false
   - name:         About
     url:          /about
     external:     false
-  - name:         Posts
-    url:          /
+  - name:         Resume
+    url:          /resume.pdf
     external:     false
   - name:         Blog
     url:          https://cyberdecaf.wordpress.com/
     external:     true
-  - name:         Resume
-    url:          /resume.pdf
-    external:     false
+  
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /posts/:title
+permalink:        /about
 defaults:
   - values:
       layout: "default"
