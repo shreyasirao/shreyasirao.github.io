@@ -9,17 +9,20 @@ share:            false # Turn on twitter and facebook share buttons
 
 links:
   - name:         Posts
-    url:          /
+    url:          /posts/:title
     external:     false
   - name:         About me
-    url:          /about
+    url:          /
+    external:     false
+  - name:         Blog
+    url:          https://cyberdecaf.wordpress.com/
     external:     false
   - name:         Resume
-    url:          /about
+    url:          /resume.pdf
     external:     false
 # ------------ CONFIGURABLE END ------------
 
-permalink:        /posts/:title
+permalink:        /about
 defaults:
   - values:
       layout: "default"

@@ -7,10 +7,10 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
-  <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
+  <body class="lh-copy dark-gray pa0 f5 georgia bg-super-white">
     <header class="tc mt4">
       <a href="{{ site.url }}">
-        <img src="{{ site.url }}/images/scribble.png" alt="Home" width="53" height="59">
+        <img src="{{ site.url }}/images/scribblne.png" alt="Home" width="53" height="59">
       </a>
       <p>{{ site.title }}</p>
     </header>
@@ -42,8 +42,10 @@
         {% endif %}
         <div class="markdown-body">
           {{ content }}
-        </div>
-        {% if is_post %}{% include signoff.html %}{% endif %}
+ 
+
+
+ {% if is_post %}{% include signoff.html %}{% endif %}
       </main>
       {% if is_post %}{% include pagination.html %}{% endif %}
     </div>
