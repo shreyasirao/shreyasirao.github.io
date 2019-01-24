@@ -2,8 +2,7 @@
 title: About me
 ---
 
-A romantic nerd, in search for the ultimate dream. A noob fired from within to keep up with everything that interests me. 
-My interests are Competitive coding, AI(and it's extended family), theoretical computer science, physics, philosophy, filmmaking and photography.  Welcome to my site! It is a documentation of everything technical and is "gibberish simplified" as I like to call it. 
-
-You can write to me at shreyasirao97@gmail.com.
-Or you could find me on [GitHub](https://github.com/shreyasirao) or [Facebook](https://www.facebook.com/profile.php?id=100000567342813) or [Instagram](https://www.instagram.com/bonemarroe) or [Twitter](https://twitter.com/shreyasi__?s=08).
+A romantic nerd, in search for the ultimate dream. A noob fired from within to make it to experts lane. Welcome to my site! It is a documentation of everything technical and all that interests me.  
+My interests lie in Competitive coding, AI(and it's extended family), theoretical computer science, physics, philosophy, filmmaking and photography.  
+Feel free to write to me at shreyasirao97@gmail.com .
+Or you could find me on [GitHub](https://github.com/shreyasirao), [Facebook](https://www.facebook.com/profile.php?id=100000567342813), [Instagram](https://www.instagram.com/bonemarroe), [Twitter](https://twitter.com/shreyasi__?s=08).
