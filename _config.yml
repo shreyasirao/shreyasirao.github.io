@@ -16,9 +16,9 @@ links:
     url:          /about
     external:     false
   - name:         Resume
-    url:          /resume.pdf
+    url:          /ShreyasiCV.pdf
     external:     false
-  - name:         Blog
+  - name:         Personal Blog
     url:          https://cyberdecaf.wordpress.com/
     external:     true
   
