@@ -2,8 +2,9 @@
 title: Writing clean code
 date: 2019-05-06 15:27:31
 ---
-## Software Rot
 Legacy messy code slow you down.
+
+## Software Rot
 Here are the symptoms of bad design:-
 
 - Rigidity: System is hard to change. Every change forces changes in other parts of the system.
@@ -38,6 +39,7 @@ Shift the design with change in requirement or software rot.
 1. One way is to get code to read like well written prose- construct well written code from names of variables and functions. There’s a very tight relationship between readability and maintainability.
 You can use explanatory variable: the only purpose of this variable is to explain what its contents is example- isTestPage
 > Code that is easy to read and reason about, is easy to maintain
+
 - Variables in small scope should have short names.
 - Name of functions should be inversely proportional to their scope.
 
