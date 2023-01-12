@@ -40,8 +40,8 @@ Shift the design with change in requirement or software rot.
 You can use explanatory variable: the only purpose of this variable is to explain what its contents is example- isTestPage
 > Code that is easy to read and reason about, is easy to maintain
 
-- Variables in small scope should have short names.
-- Name of functions should be inversely proportional to their scope.
+Variables in small scope should have short names.
+Name of functions should be inversely proportional to their scope.
 
 4. Dont go up and down the abstraction hierarchy. Follow the SLAP principle or Single level of Abstraction Principle.
 
