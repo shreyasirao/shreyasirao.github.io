@@ -3,7 +3,7 @@ title: Database Design
 date: 2021-05-26 17:15:51
 ---
 
-#### **Latency** is when you ask for something how long does it take to fetch the data.
+#### **Latency** is when you ask for something, how long does it take to fetch the data.
 
 - Caches take nanoseconds.
 - Disks take milliseconds to move the head and it is called as `seek time`.
