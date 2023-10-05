@@ -91,31 +91,27 @@ all layers built are cached, so you can restart docker build from any step, it a
 
 3. `docker push <name of image>` - make it available on public docker hub registry
 by default it will be denied since it tries to push to the docker.io/library folder which is for official docker supported repos
-we can push to repos under our own account 
+We can push to repos under our own account. So we need to login into docker account. Tag the build to our account name first using `-t`
 
-so we need to login into docker account
-2a) tag the build to our account name first using -t
+### commands, arguments and entrypoints -:
 
-4. commands, arguments and entrypoints -:
-
-`CMD sleep 5 or
+1. `CMD sleep 5 or
 CMD["sleep","5"]` - defines the program to be run in the container
 now this can be replaced by cmd line completely
 
-`ENTRYPOINT ["sleep"]
+2. `ENTRYPOINT ["sleep"]
 CMD ["5"]` - 
 Whatever is specified on cmd  line is appended to ENTRYPOINT instruction and if nothing is specified 5 is the default value
 
 
-5. `Docker compose` -: docker-compose.yml
+3. `Docker compose` -: docker-compose.yml
 if we need to run multiple services the best way to do it is using docker compose
 create a configuration file in YAML format 
 
-6. `docker-compose up` - command to bring up the entire stack
-if image is not available replace image:<image name> tag with build:<folder where application code and Dockerfile to build image is stored>
+4. `docker-compose up` - command to bring up the entire stack
+if image is not available replace `image:<image name>` tag with `build:<folder where application code and Dockerfile to build image is stored>`. No need to use links in docker version 2 and above since it automatically creates a dedicated bridge network and attaches all containers to it
 
-no need to use links in docker version 2 and above since it automatically creates a dedicated bridge network and attaches all containers to it
-7. `depends_on` - to specify the order in which containers should run
+7. `depends_on` - to specify the order in which containers should run.
 
 8. create our own networks using the `networks` tag:
 
