@@ -119,7 +119,7 @@ no need to use links in docker version 2 and above since it automatically create
 
 8. create our own networks using the `networks` tag:
 
-version:3
+`version:3
 services:
 	 redis:
 		image: redis
@@ -131,10 +131,10 @@ services:
 			- net_1
 networks: 
 	net_1:
-	net_2:
+	net_2:`
 	
 
 9. 'Docker Registry': Central repository of all docker images
-image name convention- <docker.io is default location from where images are pulled>/<user or account name>/<image or repository name>
+> image name convention- `<docker.io is default location from where images are pulled>/<user or account name>/<image or repository name>`
 
 
