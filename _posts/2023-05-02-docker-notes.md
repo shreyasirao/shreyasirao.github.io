@@ -1,5 +1,5 @@
 ---
-title: Decker Notes
+title: Docker Notes
 date: 2023-05-02 15:27:31
 ---
 Unlike Hypervisors, Docker is not meant to virtualize and run different operating systems and kernels on the same hardware. The main purpose of Docker is to package and containerize applications and to ship them and to run them anywhere, anytime, as many times as you want.
